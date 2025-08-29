@@ -24,7 +24,7 @@ body,
     align-items: center;
     flex-direction: column;
     background-color: white;
-    max-width: 50%;
+    max-width: 60%;
     box-shadow: 5px 10px 10px rgb(39 39 39);
     border: 10px dotted rgb(78, 78, 78);
     border-radius: 10px;
