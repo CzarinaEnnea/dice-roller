@@ -1,0 +1,76 @@
+* {
+    /* border: solid 1px red; */
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(78, 78, 78);
+    margin: 0;
+}
+
+body,
+#diceNum {
+    text-align: center;
+}
+
+#container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    max-width: 50%;
+    box-shadow: 5px 10px 10px rgb(39 39 39);
+    border: 10px dotted rgb(78, 78, 78);
+    border-radius: 10px;
+}
+
+#diceImages img {
+    width: 100px;
+    margin: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header img {
+    width: auto;
+    height: 50px;
+    margin: 0px 2px;
+}
+
+.interactives #diceNum {
+    font-size: 1.2rem;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.interactives {
+    margin-bottom: 10px;
+}
+
+.interactives #submitBtn{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 10px;
+    padding: 4px 20px;
+    border: none;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: hsl(0, 0%, 20%);
+}
+
+#submitBtn:active {
+    background-color: hsl(0, 0%, 30%);
+}
